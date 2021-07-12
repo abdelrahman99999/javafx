@@ -1,0 +1,31 @@
+/*for scene*/
+.root{
+    -fx-background-color:darkgrey ;
+    -fx-font-size: 10pt;
+}
+/*
+for all labels
+ */
+.label{
+    -fx-text-fill:#123456;
+    -fx-font-style:italic;
+}
+.button{
+    -fx-background-color: #AB4642;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 7;
+}
+/*
+using classes
+ */
+.blue-button{
+    -fx-background-color: #286587;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 7;
+}
+/*
+using ids
+ */
+#bold-label{
+    -fx-font-weight: bold;
+}
